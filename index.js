@@ -12,7 +12,9 @@ function increment(){
 
 function savebtn(){
     console.log("saved")
+    if(cont > 0 ){
     document.getElementById("Entry").textContent= document.getElementById("Entry").textContent +" " + cont + " - ";
+    }
     cont= 0 ;
     document.getElementById("count-id").textContent = cont;
 }
